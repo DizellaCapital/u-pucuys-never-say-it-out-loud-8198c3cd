@@ -49,7 +49,7 @@ def main() -> int:
     if back != data:
         print("read-back mismatch", file=sys.stderr)
         return 1
-    print(f"wrote {len(data)} bytes to {path}")
+    print(f"wrote {len(text)} chars ({len(data)} bytes) to {path}")
     return 0
 
 
